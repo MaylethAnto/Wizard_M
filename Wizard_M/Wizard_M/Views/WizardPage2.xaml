@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Wizard_M.Views.WizardPage2"
+             BackgroundColor="#E3F2FD">
+
+    <StackLayout Padding="20" Spacing="20">
+        <Label Text="Página 2 del Asistente"
+               FontSize="24"
+               HorizontalOptions="Center"
+               TextColor="#333" />
+
+        <Label Text="Esta es la segunda página del asistente. Aquí puedes agregar más información o instrucciones."
+               FontSize="18"
+               TextColor="#666"
+               HorizontalOptions="CenterAndExpand" 
+               HorizontalTextAlignment="Center"/>
+
+        <Button Text="Atras" 
+                BackgroundColor="#2196F3" 
+                TextColor="White"
+                CornerRadius="20"
+                HeightRequest="50"
+                Clicked="Button_Clicked"
+                HorizontalOptions="Center"/>
+    </StackLayout>
+</ContentPage>

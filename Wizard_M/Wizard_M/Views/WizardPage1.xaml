@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Wizard_M.Views.WizardPage1"
+             BackgroundColor="#FFFAF0">
+
+    <StackLayout Padding="20" Spacing="20">
+        <Label Text="Bienvenido al Asistente"
+               FontSize="24"
+               HorizontalOptions="Center"
+               TextColor="#333" />
+
+
+        <Label Text="Esta es la primera página del asistente. Aquí puedes agregar alguna información o instrucciones para el usuario."
+               FontSize="18"
+               TextColor="#666"
+               HorizontalOptions="CenterAndExpand" 
+               HorizontalTextAlignment="Center"/>
+
+        <Button Text="Siguiente" 
+                BackgroundColor="#4CAF50" 
+                TextColor="White"
+                CornerRadius="20"
+                HeightRequest="50"
+                Clicked="Button_Clicked"
+                HorizontalOptions="Center"/>
+    </StackLayout>
+</ContentPage>
